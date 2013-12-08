@@ -49,12 +49,12 @@
   <div class="navbar-inner">
     <div class="container-fluid">
       <div class="nav-collapse collapse">
-        <span class="navbar-text pull-left">
+        <div class="navbar-text pull-left">
           Logged in as <%= ses.user.name %>&nbsp;
-        </span>
-        <span class="navbar-text pull-right">
+        </div>
+        <div class="navbar-text pull-right">
           | <a href="/logout">Log out </a>
-        </span>
+        </div>
       </div> <!--/.nav-collapse -->
     </div>
   </div>
@@ -62,11 +62,10 @@
 
 <div class="container-fluid">
   <div class="row-fluid">
-    <div class="span3">
+    <div class="span12">
       <div class="well sidebar-nav">
         <div style="padding:2%; width:96%">
           <h4>Make Calls to Current Users</h4>
-
           <p>Click on any of the online users listed below in order to initiate a call.<br>
             Users that are online are highlighted in blue.
           </p>
