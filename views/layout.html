@@ -48,16 +48,14 @@
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container-fluid">
-      <a class="brand" href="#">Current Users</a>
-
       <div class="nav-collapse collapse">
+        <p class="navbar-text pull-leftt">
+          Logged in as <%= ses.user.name %>&nbsp;
+        </p>
         <p class="navbar-text pull-right">
           | <a href="/logout">Log out </a>
         </p>
 
-        <p class="navbar-text pull-right">
-          Logged in as <%= ses.user.name %>&nbsp;
-        </p>
       </div> <!--/.nav-collapse -->
     </div>
   </div>
@@ -68,7 +66,7 @@
     <div class="span3">
       <div class="well sidebar-nav">
         <div style="padding:2%; width:96%">
-          <h4>Make Calls</h4>
+          <h4>Make Calls to Current Users</h4>
 
           <p>Click on any of the online users listed below in order to initiate a call.<br>
             Users that are online are highlighted in blue.
