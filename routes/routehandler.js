@@ -3,8 +3,8 @@ var users = require('../users.json');
 
 /************************************* vLine functions ************************************/
 var jwt = require('green-jwt');
-var serviceId = 'YOUR_SERVICE_ID';   // replace with your service ID
-var apiSecret = 'YOUR_API_SECRET';   // replace with your API Secret
+var serviceId = 'pioneer';   // replace with your service ID
+var apiSecret = 'WCWvodqEjp-PHo9PfXE8iTaT0C-PTsNpAHtdhbQQzG4';   // replace with your API Secret
 
 function createToken(userId) {
   var exp = new Date().getTime() + (48 * 60 * 60);     // 2 days in seconds
