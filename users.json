@@ -6,21 +6,6 @@
 		"name":"Raj", "id":"2", "username":"4255058593", "password":"8593"
 	},
 	{
-<<<<<<< .merge_file_a05756
-		"name":"Sunny", "id":"3", "username":"sunny", "password":""
-	},
-	{
-		"name":"Mahesh", "id":"4", "username":"mahesh", "password":""
-	},
-	{
-		"name":"Surender", "id":"5", "username":"surender", "password":""
-	},
-	{
-		"name":"Nishita", "id":"6", "username":"nishita", "password":""
-	},
-	{
-		"name":"Nimisha", "id":"7", "username":"nimisha", "password":""
-=======
 		"name":"Junhua", "id":"3", "username":"4256474843", "password":"4843"
 	}
 	{
@@ -33,7 +18,6 @@
 		"name":"Jay", "id":"6", "username":"5617560287", "password":"0287"
 	}
 	{
-		"name":"Giri", "id":"7", "username":"4252137197", "password":"7197"
->>>>>>> .merge_file_a04740
+		"name":"Rajesh", "id":"7", "username":"2062347197", "password":"7197"
 	}
 ]
